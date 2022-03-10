@@ -1,0 +1,220 @@
+@charset "utf-8";
+/*웹뷰*/
+.panel,.mLogo,con04TxtBoxM,.moreBtnM,.mapM,.con04TxtBox01M,.con04TxtBox02M, .mMainCon01, .mMainCon02, .panel{display: none;}
+
+
+
+
+@media screen and (max-width: 990px){
+    
+    /*리셋*/
+    body{min-width: auto;}
+    .inner{width: auto;}
+
+    /*안보임처리*/
+    .hangleWrap, .gnb, .mainBar, .mainCon01, .mainCon02{display: none;}
+    
+    /*보임처리*/
+    .mMainCon01, .mMainCon02, .panel{display: block;}
+
+    
+    
+    
+    
+    
+    /*헤더*/
+    #header{height: 50px;}
+    .logo{padding-top: 15px;}
+    .logo img{width: 70%;}
+    .panel{
+        position: absolute;
+        top: 15px;
+        right: 6%;
+    }
+    .panel img{}
+    
+    
+    
+    
+    /*메인슬라이더*/
+    .mainSlider{
+        position: relative;
+        height: 600px;
+        background: url(../images/main/mMainSliderBg.png) no-repeat center center;
+    }
+    .mainTxtWrap{
+        position: absolute;
+        top: 25%;
+        left: 5%;
+        text-align: left;
+    }
+    .mainImg{
+        position: absolute;
+        right: -10%;
+        width: 90%;
+    }
+    .mainTxt01{
+        line-height: 50px;
+        font-size: 3rem;
+    }
+    .mainTxt01 p{font-weight: 600;}
+    .mainTxt01 p span{font-weight: 100;}
+    .mainBar{padding: 30px 0;}
+    .mainTxt02{
+        font-size: 3rem;
+        font-weight: 100;
+        padding-top: 20%;
+    }
+
+    
+    
+    
+   
+    
+    /*메인컨텐츠01*/
+    .mMainCon01{
+        text-align: center;
+        margin: 0 5%;
+        padding-top: 60px;
+    }
+    .mMainCon01 h2{
+        padding-bottom: 20px;
+        font-size: 3rem;
+    }
+    .mCon01ListWrap{}
+    .mCon01ListWrap li{font-size: 1.2rem;}
+    .mCon01ListWrap li img{width: 100%;}
+    .mCon01ListWrap li h3{
+        padding-top: 30px;
+        padding-bottom: 20px;
+        font-size: 1.6rem;
+    }
+    .mCon01ListWrap li span{}
+    .mCon01ListWrap li p{padding-top: 5px;}
+    
+    
+    /*메인컨텐츠01_2*/
+    .mMainCon01_2{padding-top: 90px;}
+    
+    /*메인컨텐츠02*/
+    .mMainCon02{
+        margin-top: 80px;
+        height: 250px;
+        background: url(../images/main/mCon02Bg.png)no-repeat left center;
+        width: 100%;
+        color: #f3f3f3;
+        text-align: center;
+    }
+    .mMainCon02 h2{
+        padding-top: 70px;
+        padding-bottom: 20px;
+        font-size: 3rem;
+    }
+    .mMainCon02 p{
+        font-size: 1.6rem;
+    }
+    .mMainCon02 a{
+        padding-top: 40px;
+        color: #f3f3f3;
+        font-size: 1.2rem;
+        display: block;
+    }
+    
+    
+    /*메인컨텐츠03*/
+    .mainCon03{
+        margin-top: 0;
+        height: 400px;
+        background: url(../images/main/con03MainImg.png) no-repeat;
+        background-attachment: fixed;
+        color: #f3f3f3;
+    }
+    .con03Txt{
+        padding: 8%;
+        margin-left: 0;
+    }
+    .con03Txt h2{
+        font-size: 3rem;
+        font-weight: 400;
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+    .con03Txt p{
+        font-size: 1.6rem;
+        line-height: 34px;
+        font-weight: 200;
+    }
+    .con03Txt p span{display: block;}
+    .con03MoreBtn{ padding-top: 60px;}
+    .con03MoreBtn a{
+        color: #f3f3f3;
+        font-size: 1.2rem;
+    }
+    .con03MoreBtn img{margin-left: 20px;}
+
+
+    
+    
+    /*메인컨텐츠04*/
+    .mainCon04{
+        width: 100%;
+        padding-top: 100px;
+        height: 860px;
+    }
+    .mainCon04 h2{
+        font-size: 3rem;
+        padding-bottom: 30px;
+    }
+    .mapTxt{
+        top: 560px;
+        width: 100%;
+        height: 300px;
+    }
+    .mapTxt h4{
+        padding-top: 50px;
+        font-size: 2rem;
+    }
+    .mapTxt>p{
+        font-size: 1.4rem;
+        padding: 10px 0;
+    }
+    .googleIcon, .kakaoIcon, .naverIcon{padding: 50px 7%;}
+    .googleIcon p, .kakaoIcon p, .naverIcon p{
+        padding-top: 15px;
+        font-size: 1.2rem;
+    }
+    .googleMap, .kakaoMap, .naverMap{
+        width: 100%;
+        height: 400px;
+    }
+
+
+    
+    
+    #footer{
+        padding: 50px 0;
+        font-size: 1.2rem;
+    }
+    .fLogo{
+        padding-bottom: 30px;
+    }
+    .fInfo ul li{
+        display: inline-block;
+        padding: 5 5px;
+        margin: 0 auto;
+    }
+    .fInfo ul li a{
+        color: #f3f3f3;
+    }
+
+    .fInfo p{line-height: 20px;}
+
+
+
+    
+    
+    
+    
+}
+
+    

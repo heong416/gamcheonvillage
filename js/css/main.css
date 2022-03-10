@@ -1,0 +1,125 @@
+@charset "utf-8";
+
+a{outline: none;}
+
+.slick slide img{
+    outline: none;
+    display: inline-block;
+    width: 100%;
+}
+.slick-dots li{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    float: left;
+    text-indent: -9999px;
+    margin: 0 8px;
+    cursor: pointer;
+}
+.slick-dots li.slick-active{background: #fff;}
+.slick-dots li button{
+    background: none;
+    border: 0;
+}
+
+
+
+/*메인컨텐츠01*/
+.mainCon01 .slideBtn{
+    position: absolute;
+    cursor: pointer;
+    z-index: 99;
+}
+.mainCon01 .slidePrev{
+    position: absolute;
+    top: 30%;
+    left: -20px;
+}
+.mainCon01 .slideNext{
+    position: absolute;
+    top: 30%;
+    right: -20px;
+}
+
+
+
+
+
+/*메인컨텐츠02*/
+.mainCon02 .slick-slide img{display: inline-block;}
+.mainCon02 .slick-dots{background: none;}
+.mainCon02 #slick-slide-control11,#slick-slide-control10{background: none;}
+.mainCon02 .slick-slide{ outline: none;}
+.mainCon02 .slick-dots{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    overflow: hidden;
+    position: absolute;
+    bottom: 20%;
+    right: 50%;
+    margin-right: -30px;
+}
+.mainCon02 .slideBtn{
+    z-index: 999;
+    position: absolute;
+    bottom: 19%;
+    cursor: pointer;
+}
+.mainCon02 .slidePrev{
+    right: 57%;
+}
+.mainCon02 .slideNext{
+    right: 43%;
+}
+
+
+
+
+@media screen and (max-width: 990px){
+    
+    .mMainCon01 .slideBtn{
+        position: absolute;
+        top: 40%;
+        margin-top: -40px;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 50%;
+        background: rgba(0,0,0,.3);
+        cursor: pointer;
+        z-index: 9999;
+    }
+    .mMainCon01 .slideBtn img{padding-top: 10px}
+    .mMainCon01 .slidePrev{left: 10px;}
+    .mMainCon01 .slideNext{right: 10px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

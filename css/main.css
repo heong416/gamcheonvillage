@@ -1,0 +1,386 @@
+@charset "utf-8";
+
+
+/*메인슬라이더*/
+
+.mainSlider{
+    position: relative;
+    height: 1080px;
+    width: 100%;
+    background: url(../images/main/mainSliderBg.png) no-repeat center center;
+    background-size: cover;
+}
+.mainTxtWrap{
+    position: absolute;
+    top: 26%;
+    left: 18%;
+    text-align: center;
+}
+.mainTxt01{
+    line-height: 70px;
+    font-size: 5rem;
+}
+.mainTxt01 p{font-weight: 600;}
+.mainTxt01 p span{font-weight: 100;}
+.mainBar{padding: 30px 0;}
+.mainTxt02{
+    font-size: 5rem;
+    font-weight: 100;
+    color: #fafafa;
+}
+
+
+/*메인컨텐츠01*/
+#container{}
+
+.mainCon01{
+    position: relative;
+    background: url(../images/main/con01Bg.png) no-repeat center center;
+    height: 1000px;
+}
+.mainCon01 h2{
+    text-align: center;
+    padding-top: 350px;
+    font-size: 6rem;
+    color: #f3f3f3;
+    background: #384B63;
+}
+.con01List{
+    padding: 0 50px;
+    padding-top: 140px;
+    position: relative;
+    text-align: center;
+}
+.con01List li{
+    padding: 0 10px;
+    float: left;
+}
+.con01List li img{max-width: 100%;}
+
+.con01List li:first-child{margin-left: 0;}
+
+.con01List h3{
+    padding-bottom: 15px;
+    padding-top: 40px;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+.con01List p{}
+.con01List span, .con01List p{
+    font-size: 1.4rem;
+    line-height: 22px;
+}
+
+/*호버*/
+
+.con01List .on ,.con01List li:hover .off{display: none;}
+.con01List li:hover .on{display: block;}
+/*
+.con01List li:hover p, .con01List li:hover span, .con01List li:hover h3{
+    transition: color 0.8s;
+    color: #f3f3f3;
+}
+*/
+
+
+/*메인컨텐츠01_2*/
+.mainCon01_2{
+    background: #fff;
+}
+.mainCon01_2 h2{
+    color: #333;
+    background: #fff;
+}
+
+
+/*메인컨텐츠02*/
+
+.mainCon02{
+    position: relative;
+    padding-top: 400px;
+}
+.mainCon02 h2{
+    text-align: center;
+    font-size: 6rem;
+
+}
+.mainCon02>p{
+    text-align: center;
+    font-size: 2.2rem;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+
+
+.con02List01{
+    background: url(../images/main/con02bg01.png) no-repeat center center;
+    height: 700px;
+}
+.con02List02{
+    background: url(../images/main/con02bg02.png) no-repeat center center;
+    height: 700px;
+}
+.con02List03{
+    background: url(../images/main/con02bg03.png) no-repeat center center;
+    height: 700px;
+}
+
+.con02TxtTit01>img{
+    position: absolute;
+    top: 55px;
+    left: 50px;
+}
+
+.con02Main img{}
+.con02{}
+.con02List01{
+    color: #f3f3f3;
+    position: relative;
+}
+.con02TxtBox01{
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    margin-left: -350px;
+    background: rgba(0,0,0,0.7);
+    width: 700px;
+    height: 600px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.con02TxtBox01 h3{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+.con02TxtBox01 h4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 17px;
+}
+
+.con02TxtBox01 p{
+    padding: 5px 0;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.con02Txt02 h4{
+    padding-top: 50px;
+}
+
+.maincon02 .quotes{
+    margin-bottom: 2px;
+}
+
+.moreBtnWhite{
+    margin-top: 70px;
+    text-align: right;
+    
+}
+
+.con02List02{
+    position: relative;
+}
+.con02TxtBox02{
+    position: absolute;
+}
+
+
+
+/*메인컨텐츠03*/
+
+.mainCon03{
+    margin-top: 400px;
+    height: 500px;
+    background: url(../images/main/con03MainImg.png) no-repeat;
+    background-attachment: fixed;
+    color: #f3f3f3;
+    width: 100%;
+}
+.con03Txt{
+    padding: 110px;
+    margin-left: 20%;
+}
+.con03Txt h2{
+    font-size: 4rem;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+.con03Txt p{
+    font-size: 2.5rem;
+    line-height: 42px;
+    font-weight: 200;
+}
+.con03Txt p span{
+    display: block;
+}
+.con03MoreBtn{
+    padding-top: 80px;
+}
+.con03MoreBtn a{
+    color: #f3f3f3;
+    font-size: 1.4rem;
+}
+.con03MoreBtn img{margin-left: 20px;}
+
+
+
+/*메인컨텐츠04*/
+
+.mainCon04{
+    width: 100%;
+    height: 1220px;
+    position: relative;
+    padding-top: 450px;
+}
+.mainCon04 h2{
+    font-size: 6rem;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.mapTxt{
+    position: absolute;
+    left: 0;
+    background: #fafafa;
+    text-align: center;
+    width: 50%;
+    height: 600px;
+}
+.mapTxt h4{
+    padding-top: 140px;
+    font-size: 2.6rem;
+    font-weight: 400;
+}
+.mapTxt>p{
+    font-size: 1.6rem;
+    padding: 20px 0;
+}
+.googleIcon{
+    display: inline-block;
+    text-align: center;
+    padding: 100px 7%;
+    cursor: pointer;
+}
+.googleIcon a{}
+.googleIcon a img{}
+.googleIcon p, .kakaoIcon p, .naverIcon p{
+    padding-top: 20px;
+    font-size: 1.4rem;
+    color: #999;
+    transition: color 0.6s;
+}
+.googleIcon:hover p, .kakaoIcon:hover p, .naverIcon:hover p{color: #333; font-weight: 600;}
+
+.kakaoIcon{
+    display: inline-block;
+    text-align: center;
+    padding: 100px 7%;
+    cursor: pointer;
+}
+.kakaoIcon a{}
+.kakaoIcon a img{}
+
+.naverIcon{
+    display: inline-block;
+    text-align: center;
+    padding: 100px 7%;
+    cursor: pointer;
+}
+.naverIcon a{}
+.naverIcon img{}
+
+.mapWrap{}
+.mapWrap h4{}
+.mapWrap p{}
+.googleMap{
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 600px;
+}
+
+.kakaoMap{
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 600px;
+    display: none;
+}
+.hide{display: none;}
+
+.naverMap{
+    display: none;
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 600px;
+    display: none;
+}
+
+.googleMap02, .kakaoMap02, .naverMap02{display: block;}
+
+
+
+/*한글*/
+
+.hangleWrap{}
+.containcer{position: relative;}
+.hangle01, .hangle02, .hangle03, .hangle04, .hangle05, .hangle06{position: absolute;}
+.hangle01{
+    top: 2200px;
+    right: 80px;
+}
+.hangle02{
+    top: 2390px;
+    left: -80px;
+    animation: hangle02 1s infinite linear alternate;
+}
+@keyframes hangle02{
+    from{top: 2390px;}
+    to{top: 2420px;}
+}
+
+.hangle03{
+    top: 3200px;
+    right: 50px;
+}
+.hangle04{
+    top: 4330px;
+    right: 300px;
+    z-index: -9999999;
+    animation: hangle04 1s infinite linear alternate;
+}
+@keyframes hangle04{
+    from{top: 4330px;}
+    to{top: 4360px;}
+}
+
+.hangle05{
+    top: 5220px;
+    left: 300;
+    z-index: -999999;
+    animation: hangle05 1s infinite linear alternate;
+}
+@keyframes hangle05{
+    from{top: 5220px;}
+    to{top: 5250px;}
+}
+
+.hangle06{
+    top: 5740px;
+    right: 0;
+    z-index: -99999;
+}
+
+
+
+
+
+
+
+
+
+
+
